@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { AsyncSubject, BehaviorSubject, Observable, ReplaySubject, Subject } from 'rxjs';
 import { SchedulerComponent } from "./components/scheduler/scheduler.component";
+import { OperatorsComponent } from "./components/operators/operators.component";
 
 @Component({
   selector: 'app-root',
-  imports: [SchedulerComponent],
+  imports: [SchedulerComponent, OperatorsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
